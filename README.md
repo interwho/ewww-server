@@ -10,11 +10,19 @@ Implements the API used by ewww-image-optimizer-cloud for Wordpress.
 
 ## Setup
 
-To install ewww-server, you'll need a server running Apache2 and PHP7.
+To install ewww-server, you'll need a server running Apache2 and PHP7. You will also need to have SSL enabled.
 
-You will also need to have SSL enabled.
+Install the image optimizers using the following commands (for Linux):
 
-Simply extract this package into your webroot, and enjoy!
+```
+sudo apt-get install jpegoptim
+sudo apt-get install optipng
+sudo apt-get install pngquant
+sudo npm install -g svgo
+sudo apt-get install gifsicle
+```
+
+Then, simply extract this package into your webroot, and enjoy!
 
 ## Plugin Setup
 

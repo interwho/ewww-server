@@ -1,0 +1,6 @@
+{
+    "name": "interwho/ewww-server",
+    "require": {
+        "ps/image-optimizer": "^1.1"
+    }
+}

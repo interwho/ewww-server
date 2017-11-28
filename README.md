@@ -31,7 +31,7 @@ These commands were last tested on plugin version 4.0.3.
 
 ## Other Notes
 
-This package *ONLY* does the image minification! Options from Wordpress
+This package **ONLY** does the image minification! Options from Wordpress
 are ignored, and all non-image-optimizing routes are mocked (and will not
 return real data).
 

@@ -1,5 +1,7 @@
 # ewww-server
 
+**THIS PROJECT IS NOT AFFILIATED WITH EWWW IN ANY WAY!**
+
 Sets up a basic image minification server for DIY (read: no paid API access
 required) image minification on Wordpress when your host blocks exec
 (I'm looking at you WPEngine).

@@ -35,14 +35,15 @@ Then, simply extract this package into your webroot, and enjoy!
 
 ## Plugin Setup
 
-Run the following two commands in bash on the ewww-image-optimizer-cloud
-plugin directory (replace 10.0.0.1 with your server IP & path to this
-application:
+Run the following two commands in bash in the ewww-image-optimizer-cloud
+plugin directory (replace 10.0.0.1 with your server IP):
 
 ```
 find . -type f -exec sed -i 's/optimize.exactlywww.com/10.0.0.1/' {} \;
 find . -type f -exec sed -i 's/stats.exactlywww.com/10.0.0.1/' {} \;
 ```
+
+Then, zip and install the plugin. Enter anything for the API key. Bulk Optimize should work fine after that!
 
 These commands were last tested on plugin version 4.0.3.
 

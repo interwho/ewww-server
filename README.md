@@ -17,10 +17,10 @@ Install the image optimizers using the following commands as root (for Debian Li
 ```
 apt-get install -y php php-gd php-dom
 apt-get install -y advancecomp pngcrush gifsicle jpegoptim
-apt-get install -y libjpeg-progs libjpeg8-dbg libimage-exiftool-perl
+apt-get install -y libimage-exiftool-perl
 apt-get install -y imagemagick pngnq tar unzip libpng-dev git
 apt-get install -y optipng pngquant
-apt-get install libjpeg-turbo-progs
+apt-get install -y libjpeg-turbo-progs
 ```
 
 You'll also need to install pngout (replace x86_64 with your architecture if required):

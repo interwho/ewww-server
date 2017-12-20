@@ -58,6 +58,10 @@ JPEG image rotation correction has not yet been implemented.
 There's a composer package in the v2 directory, however, I've gone ahead
 and committed the vendor files, so there's no need to run composer again.
 
+Here's what the plugin will look like when optimizing:
+
+![Demo](https://i.imgur.com/ggRmk1X.png)
+
 ## License
 
 (c) 2017 Justin Paulin
